@@ -6,7 +6,7 @@
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-/* eslint-disable */
+
 const __placeImgeUrlHttps = 'https';
 const __emojisReg = '';
 const __emojisBaseSrc = '';
