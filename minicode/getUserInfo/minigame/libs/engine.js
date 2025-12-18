@@ -129,7 +129,7 @@ var __spreadArray = (undefined && undefined.__spreadArray) || function (to, from
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-/* eslint-disable no-param-reassign */
+
 
 
 
@@ -2002,10 +2002,10 @@ var computeLayout = (function() {
           // For a relative children, we're either using alignItems (parent) or
           // alignSelf (child) in order to determine the position in the cross axis
           if (getPositionType(child) === CSS_POSITION_RELATIVE) {
-            /*eslint-disable */
+            
             // This variable is intentionally re-defined as the code is transpiled to a block scope language
             var/*css_align_t*/ alignItem = getAlignItem(node, child);
-            /*eslint-enable */
+            
             if (alignItem === CSS_ALIGN_STRETCH) {
               // You can only stretch if the dimension has not already been set
               // previously.
@@ -2277,11 +2277,11 @@ if (true) {
 
 
   return function(node) {
-    /*eslint-disable */
+    
     // disabling ESLint because this code relies on the above include
     computeLayout.fillNodes(node);
     computeLayout.computeLayout(node);
-    /*eslint-enable */
+    
   };
 }));
 
@@ -3307,7 +3307,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _components_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(21);
 /* harmony import */ var _env__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
-/* eslint-disable no-param-reassign */
+
 // components
 
 
@@ -3981,7 +3981,7 @@ var __extends = (undefined && undefined.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-/* eslint-disable no-underscore-dangle */
+
 /* eslint-disable no-param-reassign */
 
 
